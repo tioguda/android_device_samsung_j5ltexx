@@ -1,0 +1,5 @@
+# Samsung OEM
+ro.multisim.set_audio_params=true
+
+# Model Version
+ro.product.model=J500F
