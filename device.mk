@@ -26,7 +26,9 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/j5ltexx/overlay
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.multisim.simslotcount=2 \
     persist.radio.multisim.config=dsds \
-    rild.libpath2=/system/lib/libsec-ril-dsds.so
+    rild.libpath2=/system/lib/libsec-ril-dsds.so \
+    ro.product.model=J500F \
+    ro.multisim.set_audio_params=true
 
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
