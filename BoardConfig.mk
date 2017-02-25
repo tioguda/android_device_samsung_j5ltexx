@@ -55,7 +55,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
 
 # Misc.
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP := device/samsung/j5ltexx/system.prop
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
