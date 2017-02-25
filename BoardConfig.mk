@@ -26,6 +26,9 @@
 # Inherit from the proprietary version
 -include vendor/samsung/j5ltexx/BoardConfigVendor.mk
 
+# PATH
+LOCAL_PATH := device/samsung/j5ltexx
+
 # Audio
 AUDIO_FEATURE_SAMSUNG_DUAL_SIM := true
 
@@ -55,7 +58,7 @@ TARGET_KERNEL_CONFIG := cyanogenmod_j5nlte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
 
 # Misc.
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
 # Vendor Init
 TARGET_UNIFIED_DEVICE := true
