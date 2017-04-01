@@ -33,7 +33,6 @@
 #include "util.h"
 
 void init_dsds() {
-    property_set("ro.multisim.set_audio_params", "true");
     property_set("ro.multisim.simslotcount", "2");
     property_set("persist.radio.multisim.config", "dsds");
     property_set("ro.nfc.on.default", "false");
