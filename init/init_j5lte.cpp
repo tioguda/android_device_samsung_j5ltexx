@@ -35,15 +35,6 @@
 void init_dsds() {
     property_set("ro.multisim.simslotcount", "2");
     property_set("persist.radio.multisim.config", "dsds");
-    property_set("ro.nfc.on.default", "false");
-    property_set("ro.nfc.icon.enable", "false");
-}
-
-void init_single() {
-    property_set("ro.multisim.simslotcount", "1");
-    property_set("persist.radio.multisim.config", "none");
-    property_set("ro.nfc.on.default", "true");
-    property_set("ro.nfc.icon.enable", "true");
 }
 
 void vendor_load_properties()
@@ -62,14 +53,6 @@ void vendor_load_properties()
         property_set("ro.product.device", "j5ltexx");
 
         init_dsds();
-    } else if (bootloader.find("J500FN") == 0) {
-        /* SM-J500FN */
-        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.1/MMB29M/J500FXXU1BPF4:user/release-keys");
-        property_set("ro.build.description", "j5ltexx-user 7.1.1 MMB29M J500FXXU1BPF4 release-keys");
-        property_set("ro.product.model", "SM-J500FN");
-        property_set("ro.product.device", "j5nltexx");
-
-        init_single();
     } else if (bootloader.find("J500M") == 0) {
         /* SM-J500M */
         property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.1/MMB29M/J500FXXU1BPF4:user/release-keys");
