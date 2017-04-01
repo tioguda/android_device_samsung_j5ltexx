@@ -23,11 +23,25 @@ TARGET_SCREEN_WIDTH := 720
 # Device overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/j5ltexx/overlay
 
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.multisim.simslotcount=2 \
-    persist.radio.multisim.config=dsds \
-    rild.libpath2=/system/lib/libsec-ril-dsds.so \
-    ro.product.model=J500F
+# NFC Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/base/nfc-extras/com.android.nfc_extras.xml:system/etc/permissions/com.android.nfc_extras.xml \
+    frameworks/native/data/etc/android.hardware.nfc.xml:system/etc/permissions/android.hardware.nfc.xml \
+    frameworks/native/data/etc/android.hardware.nfc.hce.xml:system/etc/permissions/android.hardware.nfc.hce.xml
+
+# NFC configuration
+PRODUCT_COPY_FILES += \
+    device/samsung/j5ltexx/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/samsung/j5ltexx/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+    device/samsung/j5ltexx/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
+
+# NFC packages
+PRODUCT_PACKAGES += \
+    com.android.nfc_extras \
+    libnfc-nci \
+    NfcNci \
+    Tag
+
 
 # Inherit from j5-common
 $(call inherit-product, device/samsung/j5-common/common.mk)
