@@ -41,7 +41,6 @@ void init_dsds() {
 }
 
 void init_single() {
-    property_set("ro.multisim.set_audio_params", "true");
     property_set("ro.multisim.simslotcount", "1");
     property_set("persist.radio.multisim.config", "none");
     property_set("ro.nfc.on.default", "true");
