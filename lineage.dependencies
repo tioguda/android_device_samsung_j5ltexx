@@ -6,8 +6,14 @@
     "branch":     "cm-14.1"
   },
   {
+    "remote":     "github"
+    "repository": "J5-Dev/proprietary_vendor_samsung_j5-common",
+    "target_path": "vendor/samsung/j5-common"
+    "branch":     "cm-14.1"
+  },
+  {
     "remote": "github",
-    "repository": "J5-Dev/proprietary_vendor_samsung_j5nltexx",
+    "repository": "J5-Dev/proprietary_vendor_samsung_j5ltexx",
     "target_path": "vendor/samsung/j5nltexx"
     "branch": "cm-14.1"
   }
