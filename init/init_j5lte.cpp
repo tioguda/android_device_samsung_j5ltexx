@@ -33,8 +33,15 @@
 #include "util.h"
 
 void init_dsds() {
+    property_set("ro.multisim.set_audio_params", "true");
     property_set("ro.multisim.simslotcount", "2");
     property_set("persist.radio.multisim.config", "dsds");
+}
+
+void init_single() {
+    property_set("ro.multisim.set_audio_params", "true");
+    property_set("ro.multisim.simslotcount", "1");
+    property_set("persist.radio.multisim.config", "none");
 }
 
 void vendor_load_properties()
@@ -47,24 +54,32 @@ void vendor_load_properties()
 
     if (bootloader.find("J500F") == 0) {
         /* SM-J500F */
-        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.1/MMB29M/J500FXXU1BPF4:user/release-keys");
-        property_set("ro.build.description", "j5ltexx-user 7.1.1 MMB29M J500FXXU1BPF4 release-keys");
+        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.2/MMB29M/J500FXXU1BPF4:user/release-keys");
+        property_set("ro.build.description", "j5ltexx-user 7.1.2 MMB29M J500FXXU1BPF4 release-keys");
         property_set("ro.product.model", "SM-J500F");
         property_set("ro.product.device", "j5ltexx");
 
         init_dsds();
     } else if (bootloader.find("J500M") == 0) {
         /* SM-J500M */
-        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.1/MMB29M/J500FXXU1BPF4:user/release-keys");
-        property_set("ro.build.description", "j5ltexx-user 7.1.1 MMB29M J500FXXU1BPF4 release-keys");
+        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.2/MMB29M/J500FXXU1BPF4:user/release-keys");
+        property_set("ro.build.description", "j5ltexx-user 7.1.2 MMB29M J500FXXU1BPF4 release-keys");
         property_set("ro.product.model", "SM-J500M");
         property_set("ro.product.device", "j5ltedx");
 
         init_dsds();
+    } else if (bootloader.find("J500Y") == 0) {
+        /* SM-J500Y */
+        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.2/MMB29M/J500FXXU1BPF4:user/release-keys");
+        property_set("ro.build.description", "j5ltexx-user 7.1.2 MMB29M J500FXXU1BPF4 release-keys");
+        property_set("ro.product.model", "SM-J500Y");
+        property_set("ro.product.device", "j5yltedo");
+
+        init_single();
     } else if (bootloader.find("J500G") == 0) {
         /* SM-J500G */
-        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.1/MMB29M/J500FXXU1BPF4:user/release-keys");
-        property_set("ro.build.description", "j5ltexx-user 7.1.1 MMB29M J500FXXU1BPF4 release-keys");
+        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.2/MMB29M/J500FXXU1BPF4:user/release-keys");
+        property_set("ro.build.description", "j5ltexx-user 7.1.2 MMB29M J500FXXU1BPF4 release-keys");
         property_set("ro.product.model", "SM-J500G");
         property_set("ro.product.device", "j5lteub");
 

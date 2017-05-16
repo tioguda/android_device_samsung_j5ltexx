@@ -48,7 +48,7 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USERIMAGES_USE_EXT4 := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j5lte,j5lteub,j5ltedx
+TARGET_OTA_ASSERT_DEVICE := j5lte,j5lteub,j5ltedx,j5yltedo
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_j5nlte_defconfig
