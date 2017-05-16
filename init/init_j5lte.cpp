@@ -76,6 +76,14 @@ void vendor_load_properties()
         property_set("ro.product.device", "j5yltedo");
 
         init_single();
+    } else if (bootloader.find("J500FN") == 0) {
+        /* SM-J500FN */
+        property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.2/MMB29M/J500FXXU1BPF4:user/release-keys");
+        property_set("ro.build.description", "j5ltexx-user 7.1.2 MMB29M J500FXXU1BPF4 release-keys");
+        property_set("ro.product.model", "SM-J500FN");
+        property_set("ro.product.device", "j5nltexx");
+
+        init_single();
     } else if (bootloader.find("J500G") == 0) {
         /* SM-J500G */
         property_set("ro.build.fingerprint", "samsung/j5ltexx/j5lte:7.1.2/MMB29M/J500FXXU1BPF4:user/release-keys");

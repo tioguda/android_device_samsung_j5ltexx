@@ -47,8 +47,11 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 5016350720
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_USERIMAGES_USE_EXT4 := true
 
+# NFC
+BOARD_NFC_DEVICE := "/dev/pn547"
+
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j5lte,j5lteub,j5ltedx,j5yltedo
+TARGET_OTA_ASSERT_DEVICE := j5lte,j5lteub,j5ltedx,j5yltedo,j5nlte
 
 # Kernel
 TARGET_KERNEL_CONFIG := lineageos_j5nlte_defconfig
