@@ -61,5 +61,5 @@ TARGET_KERNEL_CONFIG := lineageos_j5nlte_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/j5lte
 
 # Vendor Init
-TARGET_INIT_VENDOR_LIB := libinit_sec
 TARGET_UNIFIED_DEVICE := true
+TARGET_INIT_VENDOR_LIB := libinit_j5lte
