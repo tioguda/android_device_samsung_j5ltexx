@@ -1,0 +1,259 @@
+[33mcommit 0b47235ce5e6f997223cd4cbca9d46ceec0df00a[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat May 27 18:40:42 2017 +0300
+
+    j5ltexx: CLEAN UP
+
+[33mcommit e5423c9258ba7e47b271a629fded85250b0788e1[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat May 27 12:43:13 2017 +0300
+
+    j5ltexx: Clean up
+
+[33mcommit 5ee8a8d706142566dbac3809dffebc51dce5ccea[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun May 21 14:54:12 2017 +0300
+
+    j5ltexx: Add power hal
+
+[33mcommit acbbacdbdbb188f1c202cb8c614ff3240bcc8f7a[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Thu May 18 08:52:23 2017 -0700
+
+    Little clean up
+
+[33mcommit b1d2ea1dd057fde3dde361121774cb9f87b85fcc[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Tue May 16 05:36:29 2017 -0700
+
+    j5ltexx: Unify fn
+
+[33mcommit 1e068701beac8a2309328c58b6e0cc443cf575fa[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Tue May 16 04:53:21 2017 -0700
+
+    j5ltexx: Add y
+
+[33mcommit 38f8cc210e3bf9678793bf93091fe3d198c80a6f[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun May 14 11:48:10 2017 +0300
+
+    Rebrand to los
+
+[33mcommit b293ea31f582c47e18eb5f7b02b03770ea0cd5b2[m
+Author: Esrom Cataneo <esromgalaxy5@gmail.com>
+Date:   Thu Apr 6 22:00:34 2017 -0300
+
+    Update dependencies
+    
+    This causes errors to command breakfast, this was the cause of the error to also compile aokp.
+
+[33mcommit 5b13f5c0a88b0e94457678073f350313016d2b9b[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Tue Apr 4 21:03:55 2017 +0300
+
+    Fix dependecies
+
+[33mcommit e529b2c8abb34da7612cf5a66da9eaefcfcafae1[m
+Author: Esrom Cataneo <esromgalaxy5@gmail.com>
+Date:   Sun Apr 2 07:29:12 2017 -0300
+
+    Removed vendor common
+
+[33mcommit 0e7b0d23bf7958c63dc6bab84308a295d93721e1[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun Apr 2 11:27:56 2017 +0300
+
+    Wrong directory
+
+[33mcommit ef8df745234a28a3b056866d1734559261cf6bc7[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun Apr 2 11:27:28 2017 +0300
+
+    j5ltexx: Provide j5-common vendor also
+
+[33mcommit f757643519547e1e9238d4e1ae50e1a96b296e12[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun Apr 2 11:18:37 2017 +0300
+
+    j5ltexx: Update dependencies
+
+[33mcommit 5607d2669c6ee131c179efb1e5a08c8a9cbd2e84[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Apr 1 19:16:17 2017 +0300
+
+    Revert "Revert "j5-common: Do not unify J500FN""
+    
+    This reverts commit 2c63261f34713cf17262cf53e0516e56d7ab0847.
+
+[33mcommit 2c63261f34713cf17262cf53e0516e56d7ab0847[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun Apr 2 01:27:27 2017 +0300
+
+    Revert "j5-common: Do not unify J500FN"
+    
+    This reverts commit 1a100c643d610c3c4d83969b2bd4da427f96cfda.
+
+[33mcommit 1a100c643d610c3c4d83969b2bd4da427f96cfda[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sun Apr 2 01:23:29 2017 +0300
+
+    j5-common: Do not unify J500FN
+
+[33mcommit 76ac31273fdd8f029e518010f321a0b54013ad4f[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Apr 1 13:48:08 2017 +0300
+
+    Update init_j5lte.cpp
+
+[33mcommit c086227890c066836533a7edcb2837a0f87a522b[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Apr 1 13:46:45 2017 +0300
+
+    Update init_j5lte.cpp
+
+[33mcommit c605e3ef51dff36cec28eae3dc93ab6a55047bd9[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Apr 1 01:57:25 2017 -0700
+
+    Fix models
+
+[33mcommit 22c6e815fe631708d266ad8d1cdafcab7421056f[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Apr 1 11:55:17 2017 -0700
+
+    Unify devices
+
+[33mcommit 6b60094ec761fab785200f968f7c36c94f118a41[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Tue Feb 28 13:42:59 2017 +0200
+
+    Defconfig change
+
+[33mcommit 13a3781890a6a6e941c38ea2d820d6cf2ed7db10[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Mon Feb 27 19:03:50 2017 +0200
+
+    We added this in j5-common
+
+[33mcommit 514dc1f5c9911d637cf4fec3eb0d1c6b87dbac17[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 15:30:42 2017 +0200
+
+    Enable stuff
+
+[33mcommit a059267136a1e94608f170b6db7576efa012f904[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 15:29:37 2017 +0200
+
+    Revert "j5ltexx: set LOCAL_PATH"
+    
+    This reverts commit 2df9f02771bdac01ecab176215081ef3b090f4cb.
+
+[33mcommit f3e110895c1c2d44aef60aec70a27e30dc8701e5[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 15:29:36 2017 +0200
+
+    Revert "j5ltexx: Set proprierties for j5ltexx"
+    
+    This reverts commit 7ff889fc0f46ac4f5673d49f14979fd851d83e0b.
+
+[33mcommit cd3da024ae445223aab51015efc9e762219403e9[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 15:29:35 2017 +0200
+
+    Revert "Fix derp"
+    
+    This reverts commit a7b0db53d21658955530c41b6e2ee0be10fb2896.
+
+[33mcommit d0df9395f65995fb35d12381db4a268cf3a5df56[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 15:29:33 2017 +0200
+
+    Revert "Fix path"
+    
+    This reverts commit a36ce713a8caa45b6631062f396a24f2a196cb8f.
+
+[33mcommit a36ce713a8caa45b6631062f396a24f2a196cb8f[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 13:18:58 2017 +0200
+
+    Fix path
+
+[33mcommit a7b0db53d21658955530c41b6e2ee0be10fb2896[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 25 12:54:25 2017 +0200
+
+    Fix derp
+
+[33mcommit 7ff889fc0f46ac4f5673d49f14979fd851d83e0b[m
+Author: Esrom Cataneo <esromgalaxy5@gmail.com>
+Date:   Sat Feb 25 07:50:06 2017 -0300
+
+    j5ltexx: Set proprierties for j5ltexx
+
+[33mcommit 2df9f02771bdac01ecab176215081ef3b090f4cb[m
+Author: Esrom Cataneo <esromgalaxy5@gmail.com>
+Date:   Sat Feb 25 07:47:57 2017 -0300
+
+    j5ltexx: set LOCAL_PATH
+
+[33mcommit 39bf9e32f9a411725097e6859d88e0605b3761a7[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Sat Feb 18 19:15:21 2017 +0200
+
+    Add Model Name
+
+[33mcommit e9903bb687ab578f0b76fc39046312b99d3feba6[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Thu Feb 9 19:23:07 2017 +0200
+
+    Fix derp
+
+[33mcommit 8e0c048f8163be17dc5ac0bd7cbacee98d650274[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Thu Feb 9 19:21:35 2017 +0200
+
+    rebrand to LineageOS
+
+[33mcommit 5aa0aa70f86027f28178adb051ddfbc07dee73d7[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Thu Feb 9 18:52:05 2017 +0200
+
+    Revert 1ceb62273e0fe32f315a4f996f7646de61c65259
+
+[33mcommit 1ceb62273e0fe32f315a4f996f7646de61c65259[m
+Author: SoUnd001 <sound0020@gmail.com>
+Date:   Fri Feb 3 12:12:47 2017 +0200
+
+    Change defconfig name
+
+[33mcommit f3b36c22bbc9c669728ffe21489b89b9861f5758[m
+Author: SoUnd001 <raduraducu200@gmail.com>
+Date:   Tue Jan 31 20:53:22 2017 +0200
+
+    Fix init for N
+
+[33mcommit b679a2944e5c79b0bc22628e5c64fe9c4bafb8a3[m
+Author: Nick Verse <nikoskalomiris@gmail.com>
+Date:   Sat Dec 17 21:52:09 2016 +0200
+
+    Remove wcdma
+
+[33mcommit fea4f5945d319fdfd594e52d849449db51e2afdb[m
+Author: Nick Verse <nikoskalomiris@gmail.com>
+Date:   Fri Dec 16 23:47:35 2016 +0200
+
+    Update device.mk
+
+[33mcommit 8f912092b0ff75b8f4b43e6a547ddbc48ca8fef9[m
+Author: Nick Verse <nikoskalomiris@gmail.com>
+Date:   Thu Dec 15 23:29:51 2016 +0200
+
+    Change rom name to BPK3
+
+[33mcommit f0455decd3de20867315af9f60ac2d342a18238b[m
+Author: nickverse <nikoskalomiris@gmail.com>
+Date:   Thu Dec 15 22:58:16 2016 +0200
+
+    Initial commit
