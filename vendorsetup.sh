@@ -1,2 +1,2 @@
-add_lunch_combo tesla_j5ltexx-userdebug
-add_lunch_combo tesla_j5ltexx-eng
+add_lunch_combo validus_j5ltexx-userdebug
+add_lunch_combo validus_j5ltexx-eng

@@ -3,7 +3,7 @@
     "remote":     "github",
     "repository": "tioguda/android_device_samsung_j5-common",
     "target_path": "device/samsung/j5-common",
-    "branch":     "tesla-7.1.2"
+    "branch":     "validus-7.1.2"
   },
   {
     "remote": "github",
