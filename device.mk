@@ -33,9 +33,9 @@ PRODUCT_COPY_FILES += \
 
 # NFC configuration
 PRODUCT_COPY_FILES += \
-    device/samsung/j5ltexx/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
-    device/samsung/j5ltexx/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
-    device/samsung/j5ltexx/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
+    device/samsung/j5ltexx/configs/nfc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
+    device/samsung/j5ltexx/configs/nfc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
+    device/samsung/j5ltexx/configs/nfc/nfcee_access.xml:system/etc/nfcee_access.xml
 
 # NFC packages
 PRODUCT_PACKAGES += \

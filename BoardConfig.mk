@@ -30,7 +30,7 @@
 AUDIO_FEATURE_SAMSUNG_DUAL_SIM := true
 
 # Power
-TARGET_POWERHAL_HEADER_PATH := device/samsung/j5ltexx/power
+TARGET_POWERHAL_HEADER_PATH := device/samsung/j5ltexx/configs/power
 
 # Radio
 SIM_COUNT := 2
