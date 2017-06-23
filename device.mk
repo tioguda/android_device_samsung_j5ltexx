@@ -13,6 +13,11 @@
 # limitations under the License.
 #
 
+PRODUCT_PROPERTY_OVERRIDES := \
+    ro.ota.romname=OwnRom-j5ltexx \
+    ro.ota.version=$(shell date +%F%H | sed s@-@@g) \
+    ro.ota.manifest=https://basketbuild.com/uploads/devs/tioguda/OwnRom/j5ltexx/7.1.2/j5ltexx.xml
+
 # Also get non-open-source specific aspects if available
 $(call inherit-product, vendor/samsung/j5ltexx/j5ltexx-vendor.mk)
 
