@@ -10,5 +10,11 @@
     "repository": "j5-Dev/proprietary_vendor_samsung_j5ltexx",
     "target_path": "vendor/samsung/j5ltexx",
     "branch": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "tioguda/OTAUpdates",
+    "target_path": "packages/apps/OTAUpdates",
+    "branch": "aosp"
   }
 ]
